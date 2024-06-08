@@ -20,9 +20,20 @@ The dataset is preprocessed to remove stopwords and tokenized using the Tokenize
 Ensure you have the necessary libraries installed. You can install them using pip:
 
     pip install tensorflow numpy matplotlib nltk
+    
 Download NLTK stopwords if needed:
 
     import nltk
     nltk.download('stopwords')
+    
+Run the provided code to train the model and make predictions on new text data.
 
+# Dependencies
+  * tensorflow: For building and training the neural network.
+  * numpy: For numerical operations.
+  * matplotlib: For plotting training results.
+  * nltk: For natural language processing tasks.
+
+# Output
+The model outputs predictions for the input text data, classifying articles into the predefined categories.
 
